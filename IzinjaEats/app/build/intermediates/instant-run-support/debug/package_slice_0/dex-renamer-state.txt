@@ -1,0 +1,4 @@
+#Sun May 19 22:23:08 SAST 2019
+base.0=/files1c/1810589/AndroidStudioProjects/IzinjaEats/app/build/intermediates/transforms/dexMerger/debug/95
+path.0=classes.dex
+renamed.0=classes.dex

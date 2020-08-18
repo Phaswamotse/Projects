@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/popcorns"
+    tools:context="com.example.izinjaeats.Orders">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <TextView
+            android:id="@+id/Orders_Txt"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:hint="You Currently Have No Orders"
+            android:padding="5dp"
+            android:textColor="@color/black"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+
+    </ScrollView>
+    
+
+</android.support.constraint.ConstraintLayout>

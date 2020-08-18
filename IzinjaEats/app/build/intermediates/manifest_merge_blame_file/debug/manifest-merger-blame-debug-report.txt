@@ -1,0 +1,92 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.izinjaeats"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="15"
+8-->C:\Users\Percy Mohlala\Desktop\CV Projects\IzinjaEats\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="26" />
+9-->C:\Users\Percy Mohlala\Desktop\CV Projects\IzinjaEats\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->C:\Users\Percy Mohlala\Desktop\CV Projects\IzinjaEats\app\src\main\AndroidManifest.xml:5:5-67
+11-->C:\Users\Percy Mohlala\Desktop\CV Projects\IzinjaEats\app\src\main\AndroidManifest.xml:5:22-64
+12
+13    <application
+13-->C:\Users\Percy Mohlala\Desktop\CV Projects\IzinjaEats\app\src\main\AndroidManifest.xml:7:5-33:19
+14        android:allowBackup="true"
+14-->C:\Users\Percy Mohlala\Desktop\CV Projects\IzinjaEats\app\src\main\AndroidManifest.xml:8:9-35
+15        android:debuggable="true"
+16        android:icon="@mipmap/ic_launcher"
+16-->C:\Users\Percy Mohlala\Desktop\CV Projects\IzinjaEats\app\src\main\AndroidManifest.xml:9:9-43
+17        android:label="@string/app_name"
+17-->C:\Users\Percy Mohlala\Desktop\CV Projects\IzinjaEats\app\src\main\AndroidManifest.xml:10:9-41
+18        android:roundIcon="@mipmap/ic_launcher_round"
+18-->C:\Users\Percy Mohlala\Desktop\CV Projects\IzinjaEats\app\src\main\AndroidManifest.xml:11:9-54
+19        android:supportsRtl="true"
+19-->C:\Users\Percy Mohlala\Desktop\CV Projects\IzinjaEats\app\src\main\AndroidManifest.xml:12:9-35
+20        android:testOnly="true"
+21        android:theme="@style/AppTheme" >
+21-->C:\Users\Percy Mohlala\Desktop\CV Projects\IzinjaEats\app\src\main\AndroidManifest.xml:13:9-40
+22        <activity android:name="com.example.izinjaeats.MainActivity" >
+22-->C:\Users\Percy Mohlala\Desktop\CV Projects\IzinjaEats\app\src\main\AndroidManifest.xml:14:9-20:20
+22-->C:\Users\Percy Mohlala\Desktop\CV Projects\IzinjaEats\app\src\main\AndroidManifest.xml:14:19-47
+23            <intent-filter>
+23-->C:\Users\Percy Mohlala\Desktop\CV Projects\IzinjaEats\app\src\main\AndroidManifest.xml:15:13-19:29
+24                <action android:name="android.intent.action.MAIN" />
+24-->C:\Users\Percy Mohlala\Desktop\CV Projects\IzinjaEats\app\src\main\AndroidManifest.xml:16:17-69
+24-->C:\Users\Percy Mohlala\Desktop\CV Projects\IzinjaEats\app\src\main\AndroidManifest.xml:16:25-66
+25
+26                <category android:name="android.intent.category.LAUNCHER" />
+26-->C:\Users\Percy Mohlala\Desktop\CV Projects\IzinjaEats\app\src\main\AndroidManifest.xml:18:17-77
+26-->C:\Users\Percy Mohlala\Desktop\CV Projects\IzinjaEats\app\src\main\AndroidManifest.xml:18:27-74
+27            </intent-filter>
+28        </activity>
+29        <activity android:name="com.example.izinjaeats.HomeActivity" />
+29-->C:\Users\Percy Mohlala\Desktop\CV Projects\IzinjaEats\app\src\main\AndroidManifest.xml:21:9-50
+29-->C:\Users\Percy Mohlala\Desktop\CV Projects\IzinjaEats\app\src\main\AndroidManifest.xml:21:19-47
+30        <activity android:name="com.example.izinjaeats.WelcomePage" />
+30-->C:\Users\Percy Mohlala\Desktop\CV Projects\IzinjaEats\app\src\main\AndroidManifest.xml:22:9-49
+30-->C:\Users\Percy Mohlala\Desktop\CV Projects\IzinjaEats\app\src\main\AndroidManifest.xml:22:19-46
+31        <activity android:name="com.example.izinjaeats.register_screen" />
+31-->C:\Users\Percy Mohlala\Desktop\CV Projects\IzinjaEats\app\src\main\AndroidManifest.xml:23:9-53
+31-->C:\Users\Percy Mohlala\Desktop\CV Projects\IzinjaEats\app\src\main\AndroidManifest.xml:23:19-50
+32        <activity android:name="com.example.izinjaeats.NavigationLayout" />
+32-->C:\Users\Percy Mohlala\Desktop\CV Projects\IzinjaEats\app\src\main\AndroidManifest.xml:24:9-54
+32-->C:\Users\Percy Mohlala\Desktop\CV Projects\IzinjaEats\app\src\main\AndroidManifest.xml:24:19-51
+33        <activity android:name="com.example.izinjaeats.Cust_Staff_Page" />
+33-->C:\Users\Percy Mohlala\Desktop\CV Projects\IzinjaEats\app\src\main\AndroidManifest.xml:25:9-53
+33-->C:\Users\Percy Mohlala\Desktop\CV Projects\IzinjaEats\app\src\main\AndroidManifest.xml:25:19-50
+34        <activity android:name="com.example.izinjaeats.Restaurant" />
+34-->C:\Users\Percy Mohlala\Desktop\CV Projects\IzinjaEats\app\src\main\AndroidManifest.xml:26:9-48
+34-->C:\Users\Percy Mohlala\Desktop\CV Projects\IzinjaEats\app\src\main\AndroidManifest.xml:26:19-45
+35        <activity android:name="com.example.izinjaeats.Accept_Update_Order" />
+35-->C:\Users\Percy Mohlala\Desktop\CV Projects\IzinjaEats\app\src\main\AndroidManifest.xml:27:9-57
+35-->C:\Users\Percy Mohlala\Desktop\CV Projects\IzinjaEats\app\src\main\AndroidManifest.xml:27:19-54
+36        <activity android:name="com.example.izinjaeats.Check_Order_Cust" />
+36-->C:\Users\Percy Mohlala\Desktop\CV Projects\IzinjaEats\app\src\main\AndroidManifest.xml:28:9-54
+36-->C:\Users\Percy Mohlala\Desktop\CV Projects\IzinjaEats\app\src\main\AndroidManifest.xml:28:19-51
+37        <activity android:name="com.example.izinjaeats.Orders" />
+37-->C:\Users\Percy Mohlala\Desktop\CV Projects\IzinjaEats\app\src\main\AndroidManifest.xml:29:9-44
+37-->C:\Users\Percy Mohlala\Desktop\CV Projects\IzinjaEats\app\src\main\AndroidManifest.xml:29:19-41
+38        <activity android:name="com.example.izinjaeats.Place_order" />
+38-->C:\Users\Percy Mohlala\Desktop\CV Projects\IzinjaEats\app\src\main\AndroidManifest.xml:30:9-49
+38-->C:\Users\Percy Mohlala\Desktop\CV Projects\IzinjaEats\app\src\main\AndroidManifest.xml:30:19-46
+39        <activity android:name="com.example.izinjaeats.Update_status" />
+39-->C:\Users\Percy Mohlala\Desktop\CV Projects\IzinjaEats\app\src\main\AndroidManifest.xml:31:9-51
+39-->C:\Users\Percy Mohlala\Desktop\CV Projects\IzinjaEats\app\src\main\AndroidManifest.xml:31:19-48
+40        <activity android:name="com.example.izinjaeats.View_ratings" />
+40-->C:\Users\Percy Mohlala\Desktop\CV Projects\IzinjaEats\app\src\main\AndroidManifest.xml:32:9-59
+40-->C:\Users\Percy Mohlala\Desktop\CV Projects\IzinjaEats\app\src\main\AndroidManifest.xml:32:19-47
+41
+42        <meta-data
+42-->[com.android.support:appcompat-v7:26.0.0-beta1] C:\Users\Percy Mohlala\.gradle\caches\transforms-2\files-2.1\9229cd5a652d7db8c455b934694b60b1\appcompat-v7-26.0.0-beta1\AndroidManifest.xml:26:9-28:44
+43            android:name="android.support.VERSION"
+43-->[com.android.support:appcompat-v7:26.0.0-beta1] C:\Users\Percy Mohlala\.gradle\caches\transforms-2\files-2.1\9229cd5a652d7db8c455b934694b60b1\appcompat-v7-26.0.0-beta1\AndroidManifest.xml:27:13-51
+44            android:value="26.0.0-beta1" />
+44-->[com.android.support:appcompat-v7:26.0.0-beta1] C:\Users\Percy Mohlala\.gradle\caches\transforms-2\files-2.1\9229cd5a652d7db8c455b934694b60b1\appcompat-v7-26.0.0-beta1\AndroidManifest.xml:28:13-41
+45    </application>
+46
+47</manifest>

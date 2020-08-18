@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "/files1c/1810589/AndroidStudioProjects/IzinjaEats/app/build/intermediates/incremental/mergeDebugAndroidTestResources/merged.dir/values-v18/values-v18.xml",
+            "map": [
+                {
+                    "source": "/files1c/1810589/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.0.0-beta1.aar/d3f0ad5d874eb942df8639c1976c71fe/res/values-v18/values-v18.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "48",
+                        "endOffsets": "99"
+                    }
+                }
+            ]
+        }
+    ]
+}
